@@ -13,7 +13,6 @@ lazy val root = (project in file(".")).
   	    "org.pegdown" % "pegdown" % "1.6.0" % Test
   	),
     testOptions in Test ++= Seq(
-    Tests.Argument(TestFrameworks.ScalaTest, "-oDF"),
     Tests.Argument(TestFrameworks.ScalaTest, "-h", "target/test-reports")
   )
   )
