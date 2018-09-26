@@ -1,2 +1,9 @@
 *.class
 *.log
+.DS_STORE
+project/project
+project/target
+target
+.bloop
+
+
